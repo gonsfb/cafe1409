@@ -1,0 +1,21 @@
+:root{
+    --primary-red:rgb(210, 43, 43);
+}
+header{
+   border: 1px solid black;
+   display: flex;
+   flex-direction:column;
+   justify-content: center; 
+   align-items: center;
+   width:100vw;
+   height:20vh;
+}
+h1{
+    font-weight: bolder;
+    color: var(--primary-red);
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    gap: 10vw;
+}
