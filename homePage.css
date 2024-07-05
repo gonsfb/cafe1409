@@ -1,8 +1,9 @@
 :root{
     --primary-red:rgb(210, 43, 43);
+    --font-color:rgb(129, 19, 49);
 }
 header{
-   border: 1px solid black;
+   
    display: flex;
    flex-direction:column;
    justify-content: center; 
@@ -18,4 +19,37 @@ ul{
     display:flex;
     flex-direction: row;
     gap: 10vw;
+}
+li, a{
+    list-style-type:none;
+    text-decoration: none;
+    color:var(--font-color);
+    font-size: 1.2rem;
+}
+a:hover{
+    color:black;
+}
+
+div{
+    
+    max-height:20vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+
+}
+
+img{
+    max-height: 300px;
+    max-width: 350px;
+    object-fit: contain;
+}
+
+#prev{
+    margin-right:3vw
+}
+
+#next{
+    margin-left:3vw
 }
